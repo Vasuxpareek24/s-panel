@@ -29,11 +29,10 @@ import os
 import telebot
 
 # ✅ Environment Variables से वैल्यू लेंगे
-BOT_TOKEN = os.getenv("BOT_TOKEN") or "8365487426:AAEXbv7J0Uavro3QncIoQbY-OozLgtYJepM"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 8195360535
-USERNAME = os.getenv("USERNAME") or "Vasu24"
-PASSWORD = os.getenv("PASSWORD") or "Vasu24"
-
+USERNAME = os.getenv("USERNAME") 
+PASSWORD = os.getenv("PASSWORD") 
 bot = telebot.TeleBot(BOT_TOKEN)
 
 DATA_FILE = "bot_data.json"
